@@ -1,0 +1,6 @@
+---
+- hosts: isrv
+  remote_user: root
+  become: yes
+  become_user: pmbenor
+

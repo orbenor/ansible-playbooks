@@ -1,0 +1,6 @@
+---
+- hosts: isrv
+
+  tasks:
+        - name: Run a script efs ver 7 install on Linux
+          script: /root/ansible/efs.x86_64.bin -y -f 
